@@ -35,14 +35,14 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "Point show",
+          layer: "Story points",
           opacity: 1,
           //duration: 5000
         },
       ],
       onChapterExit: [
         {
-          layer: "Point show",
+          layer: "Story points",
           opacity: 0,
         },
       ],
@@ -245,7 +245,31 @@ var config = {
       onChapterEnter: [],
       onChapterExit: [],
     },
-
+    {
+      // edwards
+      id: "edwards",
+      alignment: "right",
+      hidden: false,
+      title: "Coping Through Crisis: A Look at the State of Brooklyn’s Black-Owned Restaurants",
+      fellow: "Jessy Edwards",
+      outlet: "BK Reader",
+      place: "Downtown Brooklyn",
+      image: "./images/edwards.png",
+      storyLink:
+        "https://www.bkreader.com/business-innovation/coping-through-crisis-a-look-at-the-state-of-brooklyns-black-owned-restaurants-pt-1-6812811",
+      businessTypes: "<span class='business-tags'>Restaurants</span>",
+      location: {
+        center: [-73.9847427, 40.69816202],
+        zoom: 15.5,
+        pitch: 60,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
     {
       // nguyen
       id: "nguyen",
