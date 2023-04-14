@@ -21,6 +21,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: null,
+      fellow: null,
       image: null,
       description:
         "<a href='https://www.journalism.cuny.edu/centers/center-community-media/' target='_blank'><img src='./images/ccm-logo.png' style='max-width:200px; margin-left: 0 !important;' alt='Center for Community Media logo' /></a><hr class='hr-headline' /><span style='font-size: 0.9em; text-transform: uppercase; color: #15595a;'>Small Business Reporting Fellowship</span><p style='font-weight: 300; font-size: 1.8em;'>First Stories</p><br />In February 2023, the Small Business Reporting Fellowship kicked off with a cohort of journalists from across NYC and the metro area covering the stories of businesses and entrepreneurs in their communities.<br /><br />Take a tour through the NYC area of the small businesses and owners featured in the first round of the fellowship stories. The location given may be of just one of several businesses profiled in the fellow's story.<br /><br /><p style='font-family: Roboto Condensed; font-weight: 700; text-transform: uppercase; color: #15595a; font-size: 1em;'>Scroll down to begin ↓</p><hr class='hr-between' /><span class='note'><a href='https://airtable.com/shrVkHX3gxbhJIoVE/tblFqhLiryOvHz2qb' target='_blank'>Click here</a> to see a list of the stories in the order of this map.</span>",
