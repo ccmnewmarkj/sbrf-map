@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;800&family=Roboto+Condensed:wght@400;700&display=swap'");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap'");
 
       body {
         margin: 0;
@@ -418,7 +418,7 @@
           chapter.appendChild(description);
         }
 
-        if (record.storyLink && !record.translation) {
+        if (record.storyLink && !record.translation && !record.partTwo) {
           var storyLink = document.createElement("p");
           storyLink.innerHTML = `<span class="story-link-btn"><a href="${record.storyLink}" target="_blank">Read story</a></span>`;
           chapter.appendChild(storyLink);
@@ -426,7 +426,13 @@
 
         if (record.storyLink && record.translation) {
           var storyLink = document.createElement("p");
-          storyLink.innerHTML = `<span class="link-wrapper"><span class="story-link-btn"><a href="${record.storyLink}" target="_blank">Read story</a></span><span class="translation-link"><a href="${record.translation}">Translation</a></span></span>`;
+          storyLink.innerHTML = `<span class="link-wrapper"><span class="story-link-btn"><a href="${record.storyLink}" target="_blank">Read story</a></span><span class="translation-link"><a href="${record.translation}" target="_blank">Translation</a></span></span>`;
+          chapter.appendChild(storyLink);
+        }
+
+        if (record.storyLink && record.partTwo) {
+          var storyLink = document.createElement("p");
+          storyLink.innerHTML = `<span class="link-wrapper"><span class="story-link-btn"><a href="${record.storyLink}" target="_blank">Read story</a></span><span class="translation-link"><a href="${record.partTwo}" target="_blank">Part 2</a></span></span>`;
           chapter.appendChild(storyLink);
         }
 

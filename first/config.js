@@ -24,7 +24,7 @@ var config = {
       fellow: null,
       image: null,
       description:
-        "<a href='https://www.journalism.cuny.edu/centers/center-community-media/' target='_blank'><img src='./images/ccm-logo.png' style='max-width:200px; margin-left: 0 !important;' alt='Center for Community Media logo' /></a><hr class='hr-headline' /><span style='font-size: 0.9em; text-transform: uppercase; color: #15595a;'>Small Business Reporting Fellowship</span><p style='font-weight: 300; font-size: 1.8em;'>First Stories</p><br />In February 2023, the Small Business Reporting Fellowship kicked off with a cohort of journalists from across NYC and the metro area covering the stories of businesses and entrepreneurs in their communities.<br /><br />Take a tour through the NYC area of the small businesses and owners featured in the first round of the fellowship stories. The location given may be of just one of several businesses profiled in the fellow's story.<br /><br /><p style='font-family: Roboto Condensed; font-weight: 700; text-transform: uppercase; color: #15595a; font-size: 1em;'>Scroll down to begin ↓</p><hr class='hr-between' /><span class='note'><a href='https://airtable.com/shrVkHX3gxbhJIoVE/tblFqhLiryOvHz2qb' target='_blank'>Click here</a> to see a list of the stories in the order of this map.</span>",
+        "<a href='https://www.journalism.cuny.edu/centers/center-community-media/' target='_blank'><img src='./images/ccm-logo.png' style='max-width:200px; margin-left: 0 !important;' alt='Center for Community Media logo' /></a><hr class='hr-headline' /><span style='font-size: 0.9em; text-transform: uppercase; color: #15595a;'>Small Business Reporting Fellowship</span><p style='font-weight: 300; font-size: 1.8em;'>First Stories</p><br />In February 2023, the Small Business Reporting Fellowship kicked off with a cohort of journalists from across NYC and the metro area covering the stories of businesses and entrepreneurs in their communities.<br /><br />Take a tour through the NYC area of the small businesses and owners featured in the first round of the fellowship stories. The location given may be of just one of several businesses profiled in the fellow's story.<br /><br /><p style='font-family: Roboto Condensed; font-weight: 700; text-transform: uppercase; color: #15595a; font-size: 1em;'>Scroll down to begin ↓</p><hr class='hr-between' />📋 <span class='note'><a href='https://airtable.com/shrVkHX3gxbhJIoVE/tblFqhLiryOvHz2qb' target='_blank'>See a list</a> of the stories in the order of this map</span><br />📍 <span class='note'>First stories | <a href='https://ccmnewmarkj.github.io/sbrf-map/second/' target='_blank'>Second stories</a> | <a href='https://ccmnewmarkj.github.io/sbrf-map/third/' target='_blank'>Third stories</span>",
       location: {
         center: [-74.05, 40.71],
         zoom: 9.5, //11.25,
@@ -49,7 +49,6 @@ var config = {
       ],
     },
     {
-      // 1
       id: "rillera",
       alignment: "right",
       hidden: false,
@@ -74,7 +73,6 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 2
       id: "pastor",
       alignment: "right",
       hidden: false,
@@ -98,7 +96,6 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 3
       id: "rajan",
       alignment: "right",
       hidden: false,
@@ -123,13 +120,12 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 4
       id: "vereau",
       alignment: "right",
       hidden: false,
       title: "How the Super Peruvian Chicken Saved Peruvian Restaurants",
       fellow: "Gery Vereau",
-      outlet: "New York Hispano, Ayllu Times",
+      outlet: "New York Hispano, Reporte Hispano, Ayllu Times",
       place: "Astoria, Queens (and more)",
       image: "./images/vereau.png",
       storyLink:
@@ -148,7 +144,52 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 5
+      id: "taher",
+      alignment: "right",
+      hidden: false,
+      title: "The Days of Cab Drivers: Past and Present",
+      fellow: "Abu Taher",
+      outlet: "Weekly Bangla Patrika",
+      place: "Astoria, Queens (and more)",
+      image: "./images/taher.png",
+      storyLink: "https://banglapatrikausa.com/detail.php?bp=13846",
+      businessTypes: "<span class='business-tags'>Taxi Drivers</span>",
+      location: {
+        center: [-73.9203175, 40.76622425],
+        zoom: 15.5,
+        pitch: 60,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+    {
+      id: "drammeh",
+      alignment: "right",
+      hidden: false,
+      title: "Halal Businesses in New York City: An Investigative Report",
+      fellow: "Sheikh Musa Drammeh",
+      outlet: "New York Parrot",
+      place: "Norwood, Bronx",
+      image: "./images/drammeh.png",
+      storyLink: "https://www.newyorkparrot.com/2023/02/20/halal-businesses-in-new-york-city-an-investigative-report/",
+      businessTypes: "<span class='business-tags'>Restaurant</span>",
+      location: {
+        center: [-73.96161847, 40.60808337],
+        zoom: 15.5,
+        pitch: 60,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+    {
       id: "chowdhury",
       alignment: "right",
       hidden: false,
@@ -175,7 +216,6 @@ var config = {
     },
 
     {
-      // 6
       id: "panthi",
       alignment: "right",
       hidden: false,
@@ -185,7 +225,7 @@ var config = {
       place: "Jackson Heights, Queens",
       image: "./images/panthi.png",
       storyLink: "https://nepyork.com/despite-the-pandemic-there-is-a-gold-rush-in-the-us-nepalese-community",
-      businessTypes: "<span class='business-tags'>Jewelry Store</span>",
+      businessTypes: "<span class='business-tags'>Jeweler</span>",
       location: {
         center: [-73.89146027, 40.74837116],
         zoom: 15.5,
@@ -199,11 +239,10 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 7
       id: "karpan",
       alignment: "right",
       hidden: false,
-      title: "Gentrifying Ridgewood: A Shaft Into Yesterday’s New York ",
+      title: "Gentrifying Ridgewood: A Shaft Into Yesterday’s New York",
       fellow: "Andrew Karpan",
       outlet: "Bushwick Daily",
       place: "Ridgewood, Queens",
@@ -223,7 +262,6 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 8
       id: "bradley",
       alignment: "right",
       hidden: false,
@@ -247,7 +285,6 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 9
       id: "edwards",
       alignment: "right",
       hidden: false,
@@ -258,6 +295,8 @@ var config = {
       image: "./images/edwards.png",
       storyLink:
         "https://www.bkreader.com/business-innovation/coping-through-crisis-a-look-at-the-state-of-brooklyns-black-owned-restaurants-pt-1-6812811",
+      partTwo:
+        "https://www.bkreader.com/business-innovation/coping-through-crisis-a-look-at-the-state-of-brooklyns-black-owned-restaurants-pt-2-6827584",
       businessTypes: "<span class='business-tags'>Restaurants</span>",
       location: {
         center: [-73.9847427, 40.69816202],
@@ -272,7 +311,6 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 10
       id: "nguyen",
       alignment: "right",
       hidden: false,
@@ -298,13 +336,12 @@ var config = {
     },
 
     {
-      // 11
       id: "lagunova",
       alignment: "right",
       hidden: false,
       title: "The Art of How to Survive a Pandemic for Small Businesses",
       fellow: "Marina Lagunova",
-      outlet: "RReklama",
+      outlet: "R. Reklama",
       place: "Sheepshead Bay, Queens",
       image: "./images/lagunova.png",
       storyLink: "https://rusrek.com/mall/iskusstvo_biznesa_ili_kak_perezhili_pandemiyu_7946498/",
@@ -323,7 +360,6 @@ var config = {
     },
 
     {
-      // 12
       id: "chopra",
       alignment: "right",
       hidden: false,
@@ -349,7 +385,6 @@ var config = {
     },
 
     {
-      // 13
       id: "phillip",
       alignment: "right",
       hidden: false,
@@ -374,7 +409,6 @@ var config = {
       onChapterExit: [],
     },
     {
-      // 14
       id: "end",
       alignment: "left",
       hidden: false,
