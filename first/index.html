@@ -599,7 +599,12 @@
             }
 
             // hide marker on select chapters
-            if (current_chapter !== 0 && current_chapter !== 13 && current_chapter !== 14) {
+            //if (current_chapter !== 0 && current_chapter !== 13 && current_chapter !== 14) {
+            if (
+              current_chapter !== 0 &&
+              current_chapter !== config.chapters.length - 2 &&
+              current_chapter !== config.chapters.length - 1
+            ) {
               document.getElementsByClassName("mapboxgl-marker")[0].setAttribute("style", "visibility: show");
             }
 
