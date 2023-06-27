@@ -334,7 +334,31 @@ var config = {
       onChapterEnter: [],
       onChapterExit: [],
     },
-
+    {
+      id: "lepro",
+      alignment: "right",
+      hidden: false,
+      title: "‘I’m Gonna Bet on Myself’: Meet Some of Brooklyn’s Newest Business Owners Opening After COVID",
+      fellow: "Elizabeth Lepro",
+      outlet: "BK Reader",
+      place: "Flatbush, Brooklyn (and more)",
+      image: "./images/lepro.png",
+      storyLink:
+        "https://www.bkreader.com/business-innovation/im-gonna-bet-on-myself-meet-some-of-brooklyns-newest-business-owners-opening-after-covid-7088022",
+      businessTypes:
+        "<span class='business-tags'>Coffee shop</span>,<span class='business-tags'>Juice Bar</span>, <span class='business-tags'>Bookstore</span>",
+      location: {
+        center: [-73.95207227, 40.64483267],
+        zoom: 15.5,
+        pitch: 60,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
     {
       id: "lagunova",
       alignment: "right",

@@ -24,8 +24,8 @@ var config = {
         "<a href='https://www.journalism.cuny.edu/centers/center-community-media/' target='_blank'><img src='./images/ccm-logo.png' style='max-width:200px; margin-left: 0 !important;' alt='Center for Community Media logo' /></a><hr class='hr-headline' /><span style='font-size: 0.9em; text-transform: uppercase; color: #15595a;'>Small Business Reporting Fellowship</span><p style='font-weight: 300; font-size: 1.8em;'>Second Stories</p><br />These stories follow the <a href='https://ccmnewmarkj.github.io/sbrf-map/first/' target='_blank'>initial set</a> published under the Small Business Reporting Fellowship.<br /><br />As before, the fellows' articles feature businesses and owners found in their communities across the NYC area. The location given may be of just one of several businesses profiled in the fellow's story.<br /><br /><p style='font-family: Roboto Condensed; font-weight: 700; text-transform: uppercase; color: #15595a; font-size: 1em;'>Scroll down to begin ↓</p><hr class='hr-between' />📋 <span class='note'><a href='https://airtable.com/shrk8cWzC7Iv2kqBc' target='_blank'>See a list</a> of the stories in the order of this map</span><br />📍 <span class='note'><a href='https://ccmnewmarkj.github.io/sbrf-map/first/' target='_blank'>First stories</a> | Second stories | <a href='https://ccmnewmarkj.github.io/sbrf-map/third/' target='_blank'>Third stories</span>",
       location: {
         center: [-74.05, 40.71],
-        zoom: 9.5, //11.25,
-        pitch: 0, // "Angle of the map view. 0 is straight down, and 60 is highly tilted.""
+        zoom: 9.5,
+        pitch: 0, // "Angle of the map view. 0 is straight down, and 60 is highly tilted."
         bearing: 0, // "Degrees of rotation clockwise from North (0). Negative values represent counter-clockwise rotation."
       },
       mapAnimation: "flyTo",
@@ -35,7 +35,6 @@ var config = {
         {
           layer: "Story points",
           opacity: 1,
-          //duration: 5000
         },
       ],
       onChapterExit: [
@@ -283,7 +282,7 @@ var config = {
       fellow: "Anna Bradley-Smith",
       outlet: "Brownstoner, Brooklyn Paper, amNY",
       place: "Bushwick, Brooklyn",
-      image: "./images/bradley.png",
+      image: "./images/bradle-smith.png",
       storyLink: "https://www.brownstoner.com/brooklyn-life/nenes-taqueria-bushwick-barclays-birria/",
       businessTypes: "<span class='business-tags'>Restaurant</span>",
       location: {
@@ -366,8 +365,8 @@ var config = {
       businessTypes: "<span class='business-tags'>Medical Services</span>",
       location: {
         center: [-73.96719655, 40.57749357],
-        zoom: 9.5,
-        pitch: 0,
+        zoom: 15.5,
+        pitch: 60,
         bearing: 0,
       },
       mapAnimation: "flyTo",
@@ -391,8 +390,8 @@ var config = {
       businessTypes: "<span class='business-tags'>Adult Daycare Centers</span>",
       location: {
         center: [-73.53051102, 40.76183329],
-        zoom: 9.5,
-        pitch: 0,
+        zoom: 15.5,
+        pitch: 60,
         bearing: 0,
       },
       mapAnimation: "flyTo",
