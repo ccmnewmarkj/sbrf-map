@@ -162,6 +162,7 @@ var config = {
       place: "Astoria, Queens (and more)",
       image: "./images/chowdhury.png",
       storyLink: "https://www.prothomalony.com/news/4083",
+      translation: "https://docs.google.com/document/d/1SjUa5DNpIMQsbWXbpZWigiIpzN3z9vaOcUf8gFiTcqU/edit?usp=sharing",
       businessTypes: "<span class='business-tags'>Grocery Stores</span>",
       location: {
         center: [-73.93095877, 40.75738365],
