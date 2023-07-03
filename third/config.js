@@ -271,6 +271,31 @@ var config = {
       onChapterExit: [],
     },
     {
+      id: "lepro",
+      alignment: "right",
+      hidden: false,
+      title: "Flatbush Beauty Businesses Struggle to Regain Footing, Three Years After COVID",
+      fellow: "Elizabeth Lepro",
+      outlet: "BK Reader",
+      place: "Flatbush, Brooklyn",
+      image: "./images/lepro.png",
+      storyLink:
+        "https://www.bkreader.com/featured-news/flatbush-beauty-businesses-struggle-to-regain-footing-three-years-after-covid-7214599",
+      businessTypes:
+        "<span class='business-tags'>Coffee shop</span>,<span class='business-tags'>Barbershop</span>, <span class='business-tags'>Beauty parlor</span>",
+      location: {
+        center: [-73.949006, 40.64407318],
+        zoom: 15.5,
+        pitch: 60,
+        bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+    {
       id: "bradley",
       alignment: "right",
       hidden: false,
