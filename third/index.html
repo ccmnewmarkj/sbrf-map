@@ -252,7 +252,7 @@
 
       .mapboxgl-popup-content {
         font-family: Inter, sans-serif;
-        font-size: 1.15em;
+        font-size: 0.9rem;
         line-height: 1.2;
         border: 1px solid hsl(274, 12%, 26%);
         padding: 1rem;
@@ -260,7 +260,7 @@
 
       .mapboxgl-popup-tip {
         /* border-top-color: #159895 !important; */
-        border-top-color: hsl(274, 12%, 26%) !important;
+        border-top-color: #333333 !important;
       }
 
       .mapboxgl-popup-close-button {
@@ -613,9 +613,9 @@
                 const introMarker = document.createElement("div");
                 introMarker.className = "intro-marker";
 
-                const introPopup = new mapboxgl.Popup({ offset: 15 }) // add popups
+                const introPopup = new mapboxgl.Popup({ offset: 0 }) // add popups
                   .setHTML(
-                    `${point.title}<p style="margin: 0; padding-top: 0.5rem; font-size: 0.9em; color: #413F42;">By ${point.fellow}</p>`
+                    `<a href="${point.storyLink}" target="_blank">${point.title}</a><span style="display:block; font-size: 0.75rem; font-weight: 400; color: #464347;">${point.outlet}</span><p style="margin: 0; padding-top: 0.5rem; font-size: 0.8rem; font-weight: 500; color: #413F42;">By ${point.fellow}</p>`
                   );
 
                 new mapboxgl.Marker(introMarker).setLngLat(point.location.center).setPopup(introPopup).addTo(map);

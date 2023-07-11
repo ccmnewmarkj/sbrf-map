@@ -21,7 +21,7 @@ var config = {
       fellow: null,
       image: null,
       description:
-        "<a href='https://www.journalism.cuny.edu/centers/center-community-media/' target='_blank'><img src='./images/ccm-logo.png' style='max-width:200px; margin-left: 0 !important;' alt='Center for Community Media logo' /></a><hr class='hr-headline' /><span style='font-size: 0.9em; text-transform: uppercase; color: #15595a;'>Small Business Reporting Fellowship</span><p style='font-weight: 300; font-size: 1.8em;'>Second Stories</p><br />These stories follow the <a href='https://ccmnewmarkj.github.io/sbrf-map/first/' target='_blank'>initial set</a> published under the Small Business Reporting Fellowship.<br /><br />The fellows' articles cover businesses and owners found in their communities across the NYC area. Each point to the right on the map represents a featured business. The location given may be of just one of several businesses profiled in the fellow's story.<br /><br /><p style='font-family: Roboto Condensed; font-weight: 700; text-transform: uppercase; color: #15595a; font-size: 1em;'>Scroll down to begin ↓</p><hr class='hr-between' />📋 <span class='note'><a href='https://airtable.com/shrk8cWzC7Iv2kqBc' target='_blank'>See a list</a> of the stories in the order of this map</span><br />📍 <span class='note'><a href='https://ccmnewmarkj.github.io/sbrf-map/first/' target='_blank'>First stories</a> | Second stories | <a href='https://ccmnewmarkj.github.io/sbrf-map/third/' target='_blank'>Third stories</span>",
+        "<a href='https://www.journalism.cuny.edu/centers/center-community-media/' target='_blank'><img src='./images/ccm-logo.png' style='max-width:200px; margin-left: 0 !important;' alt='Center for Community Media logo' /></a><hr class='hr-headline' /><span style='font-size: 0.9em; text-transform: uppercase; color: #15595a;'>Small Business Reporting Fellowship</span><p style='font-weight: 300; font-size: 1.8em;'>Second Stories</p><br />These stories follow the <a href='https://ccmnewmarkj.github.io/sbrf-map/first/' target='_blank'>initial set</a> published under the Small Business Reporting Fellowship.<br /><br />The fellows' articles cover businesses and owners found in their communities across the NYC area. Each point to the right on the map represents a featured business. The location given may be of just one of several businesses profiled in the fellow's story.<br /><br /><p style='font-family: Roboto Condensed; font-weight: 700; text-transform: uppercase; color: #15595a; font-size: 1.15rem;'>Scroll down to begin ↓</p><hr class='hr-between' />📋 <span class='note'><a href='https://airtable.com/shrk8cWzC7Iv2kqBc' target='_blank'>See a list</a> of the stories in the order of this map</span><br />📍 <span class='note'><a href='https://ccmnewmarkj.github.io/sbrf-map/first/' target='_blank'>First stories</a> | Second stories | <a href='https://ccmnewmarkj.github.io/sbrf-map/third/' target='_blank'>Third stories</span>",
       location: {
         center: [-74.05, 40.71],
         zoom: 9.5,
@@ -283,7 +283,7 @@ var config = {
       fellow: "Anna Bradley-Smith",
       outlet: "Brownstoner, Brooklyn Paper, amNY",
       place: "Bushwick, Brooklyn",
-      image: "./images/bradle-smith.png",
+      image: "./images/bradley-smith.png",
       storyLink: "https://www.brownstoner.com/brooklyn-life/nenes-taqueria-bushwick-barclays-birria/",
       businessTypes: "<span class='business-tags'>Restaurant</span>",
       location: {
@@ -314,7 +314,7 @@ var config = {
         "https://www.bkreader.com/business-innovation/unmasking-the-skyrocketing-cost-of-food-in-brooklyn-pt-2-7109567",
       businessTypes: "<span class='business-tags'>Grocery Stores</span>",
       location: {
-        center: [-73.92777369, 40.70020338],
+        center: [-73.93163681, 40.670353],
         zoom: 15.5,
         pitch: 60,
         bearing: 0,
@@ -337,7 +337,7 @@ var config = {
       storyLink:
         "https://www.bkreader.com/business-innovation/im-gonna-bet-on-myself-meet-some-of-brooklyns-newest-business-owners-opening-after-covid-7088022",
       businessTypes:
-        "<span class='business-tags'>Coffee shop</span>,<span class='business-tags'>Juice Bar</span>, <span class='business-tags'>Bookstore</span>",
+        "<span class='business-tags'>Coffee shop</span>&nbsp;&nbsp;<span class='business-tags'>Juice Bar</span>&nbsp;&nbsp;<span class='business-tags'>Bookstore</span>",
       location: {
         center: [-73.95207227, 40.64483267],
         zoom: 15.5,
