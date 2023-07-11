@@ -247,12 +247,12 @@
 
       .mapboxgl-popup {
         width: 200px;
-        opacity: 0.8;
+        opacity: 0.9;
       }
 
       .mapboxgl-popup-content {
         font-family: Inter, sans-serif;
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         line-height: 1.2;
         border: 1px solid hsl(274, 12%, 26%);
         padding: 1rem;
@@ -619,7 +619,7 @@
 
                 const introPopup = new mapboxgl.Popup({ offset: 0 }) // add popups
                   .setHTML(
-                    `<a href="${point.storyLink}" target="_blank">${point.title}</a><span style="display:block; font-size: 0.75rem; font-weight: 400; color: #464347;">${point.outlet}</span><p style="margin: 0; padding-top: 0.5rem; font-size: 0.8rem; font-weight: 500; color: #413F42;">By ${point.fellow}</p>`
+                    `<span style="display: block; font-size: 0.7rem; font-weight: 400; text-transform: uppercase; color: #5f5961;">${point.outlet}</span><a href="${point.storyLink}" target="_blank">${point.title}</a><p style="margin: 0; padding-top: 0.5rem; font-size: 0.8rem; font-weight: 500; color: #413F42;">By ${point.fellow}</p>`
                   );
 
                 new mapboxgl.Marker(introMarker).setLngLat(point.location.center).setPopup(introPopup).addTo(map);
