@@ -426,7 +426,7 @@
 
         if (record.storyLink && record.translation) {
           var storyLink = document.createElement("p");
-          storyLink.innerHTML = `<span class="link-wrapper"><span class="story-link-btn"><a href="${record.storyLink}" target="_blank">Read story</a></span><span class="translation-link"><a href="${record.translation}" target="_blank">Part 2</a></span></span>`;
+          storyLink.innerHTML = `<span class="link-wrapper"><span class="story-link-btn"><a href="${record.storyLink}" target="_blank">Read story</a></span><span class="translation-link"><a href="${record.translation}" target="_blank">Translation</a></span></span>`;
           chapter.appendChild(storyLink);
         }
 
@@ -601,6 +601,8 @@
             // hide marker on select chapters
             if (
               current_chapter !== 0 &&
+              current_chapter !== config.chapters.length - 4 &&
+              current_chapter !== config.chapters.length - 3 &&
               current_chapter !== config.chapters.length - 2 &&
               current_chapter !== config.chapters.length - 1
             ) {

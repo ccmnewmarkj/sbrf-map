@@ -163,7 +163,7 @@ var config = {
       hidden: false,
       title: "Devastation and Rampage of Life-Killing Covid-19: Radical Changes in Business, Lifestyle",
       fellow: "Abu Taher",
-      outlet: "Bangla Patrika ",
+      outlet: "Weekly Bangla Patrika ",
       place: "Astoria, Queens (and more)",
       image: "./images/taher.png",
       storyLink: "https://banglapatrikausa.com/detail.php?bp=14071",
