@@ -1,6 +1,6 @@
 var config = {
   style: "mapbox://styles/jcccm/cliuk7u6b023501p75a09hhtg",
-  accessToken: "pk.eyJ1IjoiamNjY20iLCJhIjoiY2xqeHc4bHRiMXZtYTNzbzgyb2VyNzQzeSJ9.EBvANXCj14OiZ6ocLFbyOw", //"pk.eyJ1IjoiamNjY20iLCJhIjoiY2wwMG1wanFrMDYzdTNrcGhtcDg4MXlzZyJ9.7xxGLWAu72x0_vKWTYJFJw",
+  accessToken: "pk.eyJ1IjoiamNjY20iLCJhIjoiY2wwMG1wanFrMDYzdTNrcGhtcDg4MXlzZyJ9.7xxGLWAu72x0_vKWTYJFJw",
   showMarkers: true,
   markerColor: "#159895",
   inset: true,
